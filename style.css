@@ -1,0 +1,89 @@
+    body * {box-sizing: border-box;}
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 5% auto; 
+    border: 1px solid #888;
+    width: 50%;
+  }
+
+  .container {
+    padding: 16px;
+  }
+  h1 {
+    overflow: hidden;
+    text-align: center;
+    color: #474e5d;
+  }
+  
+  h1:before,
+  h1:after {
+    background-color: rgb(42, 39, 39);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=number]{
+  width: 9%;
+  padding: 5px;
+  margin: 5px 0 0px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.bottom-input {
+    text-align: center;
+    color: white;
+}
+  
+
+
