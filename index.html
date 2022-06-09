@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body style="background-color:#5d6066;">
+        <div>
+        <form class="modal-content" name = "myForm" onsubmit = "return(validate());">
+          <div class="container">
+            <h1>Register</h1>
+            <p style="text-align: center
+            ; color: #5d6066;">Create your account. It's free and take a minute</p>
+            <!-- <hr> -->
+            <input type="text" placeholder="First Name" name="firstname" style="float: left; width:49%;" required>
+            <input type="text" placeholder="Last Name" name="lastname" style="float: right; width:49%; " required>
+            
+            
+            <input type="text" placeholder="Enter Email" name="email" required>
+      
+          
+            <input type="password" placeholder="Enter Password" name="password" required>
+      
+           
+            <input type="password" placeholder="Confirm Password" name="cpassword" required>
+            <div style="background-color:antiquewhite; width: 100%;" >
+              <span id="myLink" style="padding-bottom: 5px;"></span>
+              <input type="number"  id="inputBox" onblur="result(document.getElementById('inputBox').valueAsNumber)">
+              <P >Please verify</p>
+            </div>
+            <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px" id="checkbox1">I accept the<a href="https://www.freeprivacypolicy.com/blog/privacy-policy-url/" style="color:rgb(19, 111, 42)">Terms of Use</a> &<a href="https://www.freeprivacypolicy.com/blog/privacy-policy-url/" style="color:rgb(19, 111, 42)"> Privacy</a>.
+            </label>
+           
+            
+            <div>
+              <button type="submit">Register Now</button>
+            </div>
+          </div>
+        </form>
+    </div>
+   
+      <div class="bottom-input">
+        Already have an account?<a href="https://accounts.google.com/signin/" style="color:rgb(253, 254, 255)">SignIn
+      </div>
+    </div>
+      
+      <script type = "text/javascript" src="javascript.js"></script>
+</body>
+</html>
